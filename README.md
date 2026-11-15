@@ -11,27 +11,32 @@ Test_Magasin
 
 Les diagrammes de classes UML :
 
-Article:
+*Article:
+
  -numinventaire:int
  -designation:string
  -couleur:string
 - prix:double
  -famille:string
+  
   +tostring()
   +memefamille()
 
-  Article_Lot:
+
+ * Article_Lot:
   -nbpieces:int
   +tostring()
 
-  Magasin:
-  -capacite:int
-  -stock:Article[]
-  -nbarticle:int
-  +ajout()
-  +inventaire()
 
-  Test_Magasin:
+ *Magasin:
+ | -capacite:int   
+ | -stock:Article[]
+ | -nbarticle:int
+ | __________
+ | +ajout()
+ | +inventaire()
+
+  *Test_Magasin:
   main
 
  
