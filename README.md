@@ -11,7 +11,7 @@ Test_Magasin.
 
 Les diagrammes de classes UML :
 
-*Article:
+*Article{
 
  -numinventaire:int
  -designation:string
@@ -20,23 +20,23 @@ Les diagrammes de classes UML :
  -famille:string
   
   +tostring()
-  +memefamille()
+  +memefamille()}
 
 
- * Article_Lot:
+ * {Article_Lot:
   -nbpieces:int
-  +tostring()
+  +tostring()}
 
 
- *Magasin:
+ *Magasin:{
   -capacite:int   
   -stock:Article[]
   -nbarticle:int
   +ajout()
-  +inventaire()
+  +inventaire()}
 
-  *Test_Magasin:
+  *Test_Magasin:{
   main
-
+}
  
 
