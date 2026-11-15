@@ -21,25 +21,28 @@ Samar Geurfala
   
     + tostring()
     + memefamille()
- }
+        }
 
 
   Article_Lot{
   - nbpieces:int
+    
     + tostring()
-  }
+       }
 
 
     Magasin:{
   - capacite:int   
   - stock:Article[]
   - nbarticle:int
+    
      + ajout()
      + inventaire()
-  }
+       
+       }
 
    Test_Magasin:{
      + main
-}
+         }
  
 
