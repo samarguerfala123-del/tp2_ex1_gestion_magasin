@@ -1,45 +1,45 @@
 Tp2 Ex1 gestion d'un magasin:
 
-* Nom Et Prénom :
+ Nom Et Prénom :
 Samar Geurfala
 
-* Les classes:
+ Les classes:
 - Article.
 - Article_Lot.
 - Magasin.
 - Test_Magasin.
 
- * Les diagrammes de classes UML :
+  Les diagrammes de classes UML :
 
- - Article{
+  Article{
 
 - numinventaire:int
-  - designation:string
- - couleur:string
+- designation:string
+- couleur:string
 - prix:double
- - famille:string
+- famille:string
   
-  + tostring()
- + memefamille()
+    + tostring()
+    + memefamille()
  }
 
 
- - Article_Lot{
+  Article_Lot{
   - nbpieces:int
     + tostring()
   }
 
 
-  - Magasin:{
+    Magasin:{
   - capacite:int   
   - stock:Article[]
   - nbarticle:int
-  + ajout()
-  + inventaire()
+     + ajout()
+     + inventaire()
   }
 
-   -Test_Magasin:{
- + main
+   Test_Magasin:{
+     + main
 }
  
 
