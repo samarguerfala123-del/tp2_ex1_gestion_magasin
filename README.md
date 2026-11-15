@@ -20,12 +20,14 @@ Samar Geurfala
  - famille:string
   
   # tostring()
- # memefamille()}
+ # memefamille()
+ }
 
 
  - Article_Lot{
   - nbpieces:int
-  # tostring()}
+  # tostring()
+  }
 
 
   - Magasin:{
@@ -33,7 +35,8 @@ Samar Geurfala
   - stock:Article[]
   - nbarticle:int
   # ajout()
-  # inventaire()}
+  # inventaire()
+  }
 
    -Test_Magasin:{
  # main
