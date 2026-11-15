@@ -13,27 +13,27 @@ Samar Geurfala
 
  - Article{
 
-# numinventaire:int
-# designation:string
- # couleur:string
-# prix:double
- # famille:string
+- numinventaire:int
+  - designation:string
+ - couleur:string
+- prix:double
+ - famille:string
   
-  + tostring()
-  + memefamille()}
+  # tostring()
+ # memefamille()}
 
 
  - Article_Lot{
-  # nbpieces:int
-  + tostring()}
+  - nbpieces:int
+  # tostring()}
 
 
   - Magasin:{
-  # capacite:int   
-  # stock:Article[]
-  # nbarticle:int
-  + ajout()
-  + inventaire()}
+  - capacite:int   
+  - stock:Article[]
+  - nbarticle:int
+  # ajout()
+  # inventaire()}
 
    -Test_Magasin:{
  # main
