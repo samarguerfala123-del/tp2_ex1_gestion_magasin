@@ -4,10 +4,10 @@ Nom Et Prénom :
 Samar Geurfala
 
 Les classes:
-Article
-Article_Lot
-Magasin
-Test_Magasin
+Article.
+Article_Lot.
+Magasin.
+Test_Magasin.
 
 Les diagrammes de classes UML :
 
@@ -29,12 +29,11 @@ Les diagrammes de classes UML :
 
 
  *Magasin:
- | -capacite:int   
- | -stock:Article[]
- | -nbarticle:int
- | __________
- | +ajout()
- | +inventaire()
+  -capacite:int   
+  -stock:Article[]
+  -nbarticle:int
+  +ajout()
+  +inventaire()
 
   *Test_Magasin:
   main
