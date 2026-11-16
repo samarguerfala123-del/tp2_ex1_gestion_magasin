@@ -19,7 +19,7 @@ Samar Geurfala
 - prix:double
 - famille:string
   
-    + tostring()
+    + tostring() 
     + memefamille()
         }
 
